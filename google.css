@@ -1,5 +1,119 @@
 
 
-.top {
-	padding-right: 10px;
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+/* Nav */
+
+ul li {
+	list-style-type: none;	/* removes bullets */
+
+}
+
+li {
+	float: left;  /* displays in a line */
+}
+
+li a{
+	text-decoration: none;   /* removes underline */
+	color: grey;
+	display: block;
+	padding: 10px;
+	bottom: 0px;
+	
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#nav {
+	float: right;
+
+}
+
+/* Body */
+
+#wrapper {
+	min-height: 100%;
+	position: relative;
+	 
+
+}
+
+#body {
+	text-align: center;
+	font-family: Arial, Verdana;
+	padding-top:6em;
+
+}
+
+#lang {
+	text-align: center;
+}
+
+
+img, input {
+	margin-left: auto;   /* center align */
+	margin-right: auto;
+	display: block;
+}
+
+input {
+	width: 350px;
+	height: 30px;
+}
+
+
+input:hover {
+	border-color: #99ccff;
+}
+
+/* Button */ 
+
+button:hover {
+	color: black;
+	border-color: grey;
+
+}
+
+button {
+	color: grey;
+	font-size: 12px;
+	width: 25%;
+	height: 6%;
+	text-align: center;
+	background: #f2f2f2;
+	border-radius: 5px;
+}
+
+/* Footer */
+
+#footer  {
+	background-color: #f2f2f2;
+	width: 100%;
+	height: 50px;
+	position: absolute;
+	bottom: 0px;
+	border-top: 1px solid;
+	border-color: grey;
+	
+	
+	
+}
+
+#lf {
+	float: left;
+
+}
+
+#rf {
+	float: right;
 }
